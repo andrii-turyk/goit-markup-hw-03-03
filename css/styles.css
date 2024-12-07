@@ -6,10 +6,43 @@ body {
 
 ul,ol {
     list-style-type: none;
+    margin: 0;
+    padding: 0;
 }
 
 a {
     text-decoration: none;
+}
+
+.page-header {
+    border-bottom: 1px solid #e7e9fc;
+}
+
+.header-container {
+    display: flex;
+    align-items: center;
+}
+
+.header-nav {
+    display: flex;
+    align-items: center;
+}
+
+.nav-list {
+    display: flex;
+    align-items: center;
+    gap: 40px;
+}
+
+.contacts-list {
+    display: flex;
+    align-items: center;
+    gap: 40px;
+}
+
+.header-logo {
+    padding: 24px 0;
+    margin-right: 76px;
 }
 
 .logo {
@@ -27,6 +60,8 @@ a {
 }
 
 .nav-link {
+    display: block;
+    padding: 24px 0;
     font-weight: 500;
     font-size: 16px;
     line-height: 1.5;
@@ -36,9 +71,12 @@ a {
 
 .contacts {
     font-style: normal;
+    margin-left: auto;
 }
 
 .contacts-link {
+    display: block;
+    padding: 24px 0;
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
@@ -60,16 +98,31 @@ a {
     color: #f4f4fd;
 }
 
+.footer-container {
+    display: flex;
+    flex-direction: column;
+}
+
+.footer-logo {
+    padding-top: 100px;
+    padding-left: 156px;
+    margin-bottom: 16px;
+}
+
+
 .footer-text {
     font-weight: 400;
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: #f4f4fd;
+    padding-left: 156px;
+    padding-bottom: 100px;
 }
 
 .hero {
     background-color: #2e2f42;
+    margin-bottom: 120px;
 }
 
 .title-hero {
@@ -89,20 +142,39 @@ a {
     line-height: 1.5;
     letter-spacing: 0.04em;
     color: #fff;
-}
+    
+}   
 
 .btn-hero:hover,
 .btn-hero:focus {
     background: #404bbf;
 }
 
-.offer {}
+.hero-container {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+
+}
+
+
+
+
+.offer {
+    margin-bottom: 120px;
+}
 
 .offer-title {}
 
-.offer-list {}
+.offer-list {
+    display: flex;
+    align-items: stretch;
+    gap: 24px;
+}
 
-.offer-item {}
+.offer-item {
+  
+}
 
 .offer-name {
     font-weight: 500;
@@ -110,6 +182,8 @@ a {
     line-height: 1.2;
     letter-spacing: 0.02em;
     color: #2e2f42;
+    margin-bottom: 8px;
+
 }
 
 .offer-text {
@@ -118,6 +192,14 @@ a {
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: #434455;
+}
+
+.offer-container {
+    display: flex;
+    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
+
 }
 
 .team {
@@ -132,11 +214,27 @@ a {
     letter-spacing: 0.02em;
     text-align: center;
     color: #2e2f42;
+    padding-top: 120px;
+    margin-bottom: 72px;
+}
+
+.team-container {
+
+}
+
+.card-content {
+   padding: 0 16px 32px 16px;
+   margin-top: 32px;
+   text-align: center;
 }
 
 
 .team-list {
-    
+    display: flex;
+    flex-direction: row;
+    gap: 24px;
+    border-radius: 0 0 4px 4px;
+    padding-bottom: 120px;
 }
 
 .team-item {
@@ -152,6 +250,7 @@ a {
     line-height: 1.2;
     letter-spacing: 0.02em;
     color: #2e2f42;
+    margin-bottom: 8px;
 
 }
 
@@ -164,8 +263,17 @@ a {
 }
 
 .portfolio {
-
+    margin-bottom: 96px;
 }
+
+.portfolio-container {
+}
+
+.portfolio-t {
+    text-align: left;
+}
+
+
 
 .portfolio-title {
     text-transform: capitalize;
@@ -175,10 +283,14 @@ a {
     text-align: center;
     letter-spacing: 0.02em;
     color: #2e2f42;
+    align-items: center;
+    margin-bottom: 72px;
 }
 
 .portfolio-list {
-
+    display: flex;
+    flex-wrap: wrap;
+    gap: 48px 24px;
 }
 
 .portfolio-items {
@@ -196,6 +308,9 @@ a {
     line-height: 1.2;
     letter-spacing: 0.02em;
     color: #2e2f42;
+    padding-top: 32px;
+    padding-left: 16px;
+    margin-bottom: 8px;
 }
 
 .portfolio-text {
@@ -204,20 +319,21 @@ a {
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: #434455;
+    padding-left: 16px;
+    padding-bottom: 32px;
 }
 
 .container {
-    max-width: 1440px;
-    padding-left: 0;
-    padding-right: 0;
-    margin-left: 0;
-    margin-right:0;
+    max-width: 1158px;
+    padding: 0 15px;
+    margin: 0 auto;
 }
 
-.container .page-header {
-    display: flex;
-
+h1, h2, h3, h4, h5, h6, p {
+    margin: 0;
 }
+
+
 
 
 
