@@ -162,6 +162,7 @@ a {
 
 .offer {
     margin-bottom: 120px;
+    padding: 120px 0
 }
 
 .offer-title {}
@@ -173,7 +174,7 @@ a {
 }
 
 .offer-item {
-  
+width: calc((100% - 72px) / 4);
 }
 
 .offer-name {
