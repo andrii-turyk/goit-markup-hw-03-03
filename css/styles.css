@@ -219,6 +219,7 @@ width: calc((100% - 72px) / 4);
 
 .team {
     background-color:#f4f4fd;
+    padding: 120px 0;
 }
 
 .team-title {
@@ -229,7 +230,6 @@ width: calc((100% - 72px) / 4);
     letter-spacing: 0.02em;
     text-align: center;
     color: #2e2f42;
-    padding-top: 120px;
     margin-bottom: 72px;
 }
 
@@ -249,7 +249,6 @@ width: calc((100% - 72px) / 4);
     flex-direction: row;
     gap: 24px;
     border-radius: 0 0 4px 4px;
-    padding-bottom: 120px;
 }
 
 .team-item {
