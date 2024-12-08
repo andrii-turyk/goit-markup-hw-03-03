@@ -105,10 +105,10 @@ a {
 }
 
 .footer-logo {
+    display: inline-block;
     padding-top: 100px;
     padding-left: 156px;
     margin-bottom: 16px;
-    display: inline-block;
 }
 
 
