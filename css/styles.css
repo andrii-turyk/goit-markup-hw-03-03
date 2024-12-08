@@ -100,14 +100,11 @@ a {
 }
 
 .footer-container {
-    display: flex;
-    flex-direction: column;
+    
 }
 
 .footer-logo {
     display: inline-block;
-    padding-top: 100px;
-    padding-left: 156px;
     margin-bottom: 16px;
 }
 
@@ -118,8 +115,7 @@ a {
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: #f4f4fd;
-    padding-left: 156px;
-    padding-bottom: 100px;
+    max-width: 264px;
 }
 
 .hero {
